@@ -1,0 +1,91 @@
+# EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
+# For more information about the EditorConfig project, visit http://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Indentation style
+[*.js]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+[*.vue]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+# Trim trailing white spaces
+[*.js]
+trim_trailing_whitespace = true
+
+[*.vue]
+trim_trailing_whitespace = true
+
+# Use UTF-8 encoding for everything
+[*]
+charset = utf-8
+
+# ESLint integration
+[*.js]
+# Turn off EditorConfig indentation settings for ESLint
+indent_style = unset
+indent_size = unset
+
+# Prettier integration
+[*.{js, vue}]
+# Turn off ESLint indentation settings for Prettier
+# Set the maximum line width to 80 characters
+# Allow Prettier to handle single quotes and trailing commas
+# Use semicolons
+# Always use double quotes for JSX attributes
+# Do not use tabs for indentation
+# Print a trailing comma wherever possible when multi-line
+# Use bracket spacing
+# Always use parentheses for arrow function parameters
+# End files with a newline
+# Remove all spaces between brackets
+# Remove spaces before function parentheses
+# Remove spaces before function parenthesis in anonymous function declaration
+# Do not put a space before a function declaration's parentheses
+# Remove spaces around ternary operator
+# Remove space before and after unary operators, and before and after binary operators
+# Do not put a space before a spread operator
+# Do not put a space before a function's opening parenthesis
+# Do not put a space before a function's opening brace
+# Remove spaces after function call opening parenthesis
+# Remove spaces before function call closing parenthesis
+# Remove spaces between function call parentheses and its arguments
+# Use the most common line ending (LF)
+# Do not break lines on chained properties
+# Enforce a space after colon in computed properties
+# Enforce a space before and after range operators
+# Do not add space inside of computed properties' square brackets
+# Do not break lines in single-line blocks
+# Do not use brackets notation in computed properties when possible
+# Use spaces to align objects in array-like contexts
+# Do not insert a space between the function name and the opening parenthesis in a call
+# Use consistent quotes for object properties
+# Remove trailing commas from object literals
+# Use 2 spaces as the tab width
+# Use single quotes for strings, except to avoid escaping
+# Use single quotes instead of double quotes in JSX
+# Do not add spaces inside curly braces in JSX
+# Use the "always" option for curly braces in JSX
+# Always break every property in object literals onto a new line
+# Break JSX attributes onto a new line when they exceed the maximum line length
+# Do not break closing brackets onto a new line
+# Do not add spaces inside array brackets
+# Enforce a space after commas in objects and arrays
+# Enforce spaces inside of curly braces in objects
+# Do not add a space after the function keyword for anonymous functions
+# Enforce spaces inside of parentheses
+# Use consistent spacing for blocks
+# Always use curly braces for multi-line blocks
+# Do not add a space before a function's opening parenthesis
+# Do not add
